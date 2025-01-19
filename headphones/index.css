@@ -1,0 +1,101 @@
+.header{
+  background-image: url(images/headphones_hero_1.jpg);
+  text-align: center;
+  text-align-last: center;
+  height: auto;
+  
+  
+  
+  }
+  
+  .navbar{
+      color: #fff;
+  }
+  .header{
+      color: #fff;
+  }
+  button{
+  
+      border-radius: 20px;
+      background-color: #FF5E57;
+      border: none;
+      padding: 15px 40px;
+      color: #fff;
+      justify-content: center;
+  }
+  
+  .logo{
+      max-width: 15px;
+  
+  }
+  .nav-links{
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 16px;
+      color: #fff;
+      padding: 5px 100px;
+      border-radius: 5px;
+      margin-right: 6px;
+  }
+  .what-we-do{
+  
+      text-align: center;
+      background-color: #fff;
+      height: 500px;
+  }
+  .paragraph{
+      background-color: #fff;
+      text-align: center;
+      text-align-last: center;
+  
+  
+  }
+  .our-results{
+      text-align: center;
+      background-image: url(images/headphones_hero_2.jpg);
+      color: #fff;
+      
+  }
+  .img1{
+      
+      display: flex;
+      width: 300px;
+      height: 250px;
+      gap: 30px;
+      clear: both;
+      
+      
+  }
+  .form{
+      text-align: center;
+      border: none;
+      display: block;
+      font-size: 16px;
+      ;
+  
+  }
+  .input{
+  
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid;
+      margin-bottom: 20px;
+      padding: 10px 5px;
+      font-size: 16px;
+  
+  }
+  .headphones{
+      background-color: rgb(12, 23, 49);
+      height: 150px;
+      padding: 20px;
+  
+      
+  }
+  .footer{
+      height: 150px;
+      width: auto;
+  }
+  .para{
+      height:100px;
+  }
