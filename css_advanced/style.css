@@ -1,0 +1,170 @@
+/* Updated CSS for SmileSchool Landing Page */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Hero Section */
+main > section:first-child {
+  background: url('https://fakeimg.pl/1200x600?text=Hero+Image') no-repeat center/cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+span {
+  display: inline-block;
+  margin: 5px;
+  font-size: 1.2rem;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #a64dff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #822dcf;
+}
+
+/* Learn From The Pros Section */
+main > section:nth-child(2) {
+  text-align: center;
+  padding: 50px;
+  background: #222;
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.pros-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pros-container div {
+  background: #333;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.pros-container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Tutorials Section */
+.tutorials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.tutorial {
+  width: 250px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.tutorial img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.tutorial p {
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+footer i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+footer i:hover {
+  color: #a64dff;
+}
